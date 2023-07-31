@@ -1,0 +1,54 @@
+/* General styling for the entire page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+/* Styling for the main heading */
+h1 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* Styling for the form */
+form {
+    /* Increase the maximum width to 400px */
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 2cap solid #ccc;
+    background-color: #fff;
+}
+
+/* Styling for form labels */
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Styling for text input and password input fields */
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 3px;
+    margin-bottom: 20px; /* Adjust the spacing here */
+    border: 2px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Styling for the submit button */
+button {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+/* Styling for the submit button on hover */
+button:hover {
+    background-color: #45a049;
+}
